@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(128, 14, 14);
+}
+.radio {
+  background-color: rgb(128, 14, 14);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Permanent Marker", cursive;
+}
+@media (min-width: 550px) {
+  .radio {
+    max-width: 300px;
+  }
+}
+.container {
+  padding: 0;
+}
+.container,
+.boxRadio {
+  height: 100%;
+}
+.boxRadio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxLogoInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: 250px;
+}
+.infoBoxRadio {
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 250px);
+}
+.pageName {
+  text-align: center;
+}
+.pageName h2 {
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  max-width: 50%;
+}
+.boxInfo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+i {
+  font-size: 28px;
+  cursor: pointer;
+}
+.colorPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.colorPage .boxColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.colorPage .black {
+  background-color: black;
+}
+.colorPage .red {
+  background-color: rgb(202, 19, 19);
+}
+.colorPage .green {
+  background-color: rgb(12, 117, 12);
+}
+.colorPage .blue {
+  background-color: rgb(18, 18, 151);
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  background: #e3e3e3;
+  height: 2px;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  background: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.volume h3,
+.speed h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.pause {
+  display: none;
+}
+.appstore {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appstore img {
+  max-width: 30%;
+}
+.opscode59 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  height: 70px;
+  margin: 10px 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.opscode59 h4 {
+  font-weight: bold;
+  margin: 0;
+}
+.opscode59 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.colorPage {
+  cursor: pointer;
+}
